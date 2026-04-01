@@ -1,4 +1,4 @@
-FROM ghcr.io/imputnet/cobalt:12.0
+FROM ghcr.io/imputnet/cobalt:latest
 
 # Copiar el archivo de cookies al directorio raíz
 COPY cookies.json /cookies.json
